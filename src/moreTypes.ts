@@ -15,6 +15,6 @@ function printRole(role:Role): void{
 
 function neverReturn():never{
     while(true){
-        
+        throw new Error("Error")
     }
 }
